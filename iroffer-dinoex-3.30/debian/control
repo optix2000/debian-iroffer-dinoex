@@ -13,6 +13,8 @@ Homepage: http://iroffer.dinoex.net/
 Package: iroffer-dinoex
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: iroffer
+Replaces: iroffer
 Description: IRC file distribution bot
  iroffer is a fileserver for IRC (commonly referred to as a DCC bot).
  It uses the DCC feature of IRC to send files to other users. iroffer
