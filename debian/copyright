@@ -34,7 +34,7 @@ License: MIT
 
 Files: src/upnp.*
 Copyright: Thomas Bernard
-License: BSD
+License: BSD-3-clause
 
 Files: debian/*
 Copyright: 2016 Weilu Jia <optix2000@teitoku.net>
