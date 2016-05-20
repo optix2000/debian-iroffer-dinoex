@@ -1,3 +1,6 @@
 src/dinoex_config.h
 Makefile
 debian/.debhelper
+iroffer
+iroffer_chroot
+o.en
