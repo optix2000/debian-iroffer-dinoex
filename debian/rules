@@ -25,7 +25,8 @@ override_dh_auto_clean:
 	rm Makefile || true
 	rm src/iroffer_config.h || true
 override_dh_auto_configure:
-	./Configure -curl
+	./Configure -curl -tls
+	# For some reason PREFIX=/usr doesn't work
 	sed -i 's/usr\/local/usr/g' Makefile
 #	dh_auto_configure -- #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 
