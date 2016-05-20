@@ -1,0 +1,15 @@
+Source: iroffer-dinoex
+Section: unknown
+Priority: optional
+Maintainer: unknown <optix2000@teitoku.net>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/iroffer-dinoex.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/iroffer-dinoex.git
+
+Package: iroffer-dinoex
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
