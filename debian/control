@@ -1,15 +1,29 @@
 Source: iroffer-dinoex
-Section: unknown
+Section: net
 Priority: optional
-Maintainer: unknown <optix2000@teitoku.net>
-Build-Depends: debhelper (>=9)
+Maintainer: Weilu Jia <optix2000@teitoku.net>
+Build-Depends: debhelper (>=9),
+ libc-dev,
+ gcc,
+ libcurl4-openssl-dev,
+ libssl-dev
 Standards-Version: 3.9.8
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://iroffer.dinoex.net/
 #Vcs-Git: git://anonscm.debian.org/collab-maint/iroffer-dinoex.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/iroffer-dinoex.git
 
 Package: iroffer-dinoex
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: An improved version of iroffer
+ iroffer is a software program that acts as a fileserver for IRC.
+ It is similar to a FTP server or WEB server, but users can download
+ files using the DCC protocol of IRC instead of a web browser.
+ .
+ iroffer is a standalone executable written entirely in C.
+ Designed for speed and efficency, iroffer can transfer over 95MByte/sec
+ over a gigabit ethernet connection.
+ .
+ iroffer-dinoex is an improved version of iroffer that supports IPv6,
+ SSL, multiple IRC networks, and more.
+
