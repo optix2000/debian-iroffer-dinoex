@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: iroffer-dinoex
 Source: http://iroffer.dinoex.net
 
-Files: src/dinoex* 
+Files: * 
 Copyright: Dirk Meyer
 License: GPL-2
 
