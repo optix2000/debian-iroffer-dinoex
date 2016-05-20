@@ -21,7 +21,7 @@ Description: An improved version of iroffer
  files using the DCC protocol of IRC instead of a web browser.
  .
  iroffer is a standalone executable written entirely in C.
- Designed for speed and efficency, iroffer can transfer over 95MByte/sec
+ Designed for speed and efficiency, iroffer can transfer over 95MByte/sec
  over a gigabit ethernet connection.
  .
  iroffer-dinoex is an improved version of iroffer that supports IPv6,
