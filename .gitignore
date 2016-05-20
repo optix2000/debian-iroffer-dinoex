@@ -3,8 +3,9 @@ iroffer-dinoex-3.30/src/iroffer_config.h
 iroffer-dinoex-3.30/iroffer
 iroffer-dinoex-3.30/iroffer_chroot
 iroffer-dinoex-3.30/o.en
+iroffer-dinoex-3.30/debian/iroffer-dinoex/
 iroffer-dinoex-3.30/debian/.debhelper
-iroffer-dinoex-3.30/debian/iroffer-dinoex*
+iroffer-dinoex-3.30/debian/iroffer-dinoex.debhelper.log
 iroffer-dinoex-3.30/debian/files
 iroffer-dinoex-3.30/debian/debhelper-build-stamp
 iroffer-dinoex_3.30-1*
