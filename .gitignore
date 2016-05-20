@@ -8,5 +8,6 @@ iroffer-dinoex-3.30/debian/.debhelper
 iroffer-dinoex-3.30/debian/iroffer-dinoex.debhelper.log
 iroffer-dinoex-3.30/debian/files
 iroffer-dinoex-3.30/debian/debhelper-build-stamp
+iroffer-dinoex-3.30/debian/iroffer-dinoex.substvars
 iroffer-dinoex_3.30-1*
 iroffer-dinoex-dbgsym*
