@@ -2,6 +2,10 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: iroffer-dinoex
 Source: http://iroffer.dinoex.net
 
+Files: src/dinoex* 
+Copyright: Dirk Meyer
+License: GPL-2
+
 Files: src/iroffer* dynip.sh iroffer.cron
 Copyright: David Johnson
 License: GPL-2
