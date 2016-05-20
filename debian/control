@@ -13,7 +13,7 @@ Homepage: http://iroffer.dinoex.net/
 Package: iroffer-dinoex
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: An improved version of iroffer
+Description: Improved version of iroffer
  iroffer is a software program that acts as a fileserver for IRC.
  It is similar to a FTP server or WEB server, but users can download
  files using the DCC protocol of IRC instead of a web browser.
