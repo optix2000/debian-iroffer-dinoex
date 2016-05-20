@@ -13,15 +13,19 @@ Homepage: http://iroffer.dinoex.net/
 Package: iroffer-dinoex
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Improved version of iroffer
- iroffer is a software program that acts as a fileserver for IRC.
- It is similar to a FTP server or WEB server, but users can download
- files using the DCC protocol of IRC instead of a web browser.
+Description: IRC file distribution bot
+ iroffer is a fileserver for IRC (commonly referred to as a DCC bot).
+ It uses the DCC feature of IRC to send files to other users. iroffer
+ will connect to an IRC server and let people request files from it.
+ Unlike similar programs, iroffer is not a script; it is a standalone
+ executable written entirely in C, from scratch, with high transfer
+ speed and efficiency in mind. iroffer has been known to reach
+ 6MByte/sec or higher bandwidth usage when multiple transfers are
+ occurring at the same time.
  .
- iroffer is a standalone executable written entirely in C.
- Designed for speed and efficiency, iroffer can transfer over 95MByte/sec
- over a gigabit ethernet connection.
- .
- iroffer-dinoex is an improved version of iroffer that supports IPv6,
- SSL, multiple IRC networks, and more.
-
+ iroffer-dinoex is a fork of iroffer developed and maintained by
+ Dirk Meyer. It offers a lot of enhancements and new features,
+ and is backwards-compatible with the original iroffer. New features
+ offered by iroffer-dinoex include support for IPv6, SSL (either via
+ OpenSSL or GNU TLS), passive DCC, large (> 4 GB) files, UPnP, and
+ the ability to extend it via a Ruby scripting engine.
