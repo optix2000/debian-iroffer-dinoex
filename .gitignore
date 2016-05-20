@@ -1,6 +1,9 @@
-src/iroffer_config.h
 Makefile
-debian/.debhelper
+src/iroffer_config.h
 iroffer
 iroffer_chroot
 o.en
+debian/.debhelper
+debian/iroffer-dinoex*
+debian/files
+debian/debhelper-build-stamp
