@@ -1,0 +1,21 @@
+Description: Fixes whatis entry in xdcc.7 until it's fixed upstream.
+ Fixes whatis entry in the xdcc.7 manpage. This clears the 
+ manpage-has-bad-whatis-entry lintian warning.
+ This should only be used until the package is fixed upstream.
+Author: Weilu Jia <optix2000@teitoku.net>
+Bug-Debian: https://bugs.debian.org/824900
+# To be filled in when bug is filed upstream
+# Bug: 
+Last-Update: 2016-05-21
+
+--- iroffer-dinoex-3.30.orig/xdcc.7
++++ iroffer-dinoex-3.30/xdcc.7
+@@ -1,7 +1,7 @@
+ .\" $Id: xdcc.7,v 1.6 2013/03/03 12:42:42 cvs Exp $
+ .TH XDCC 7 "March 2013" "All Posix OS" "User Manuals"
+ .SH NAME
+-XDCC usercommands
++XDCC \- XDCC usercommands
+ .SH SYNOPSIS
+ .TP
+ .B XDCC < command > [ args ]
