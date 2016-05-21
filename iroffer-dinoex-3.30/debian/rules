@@ -2,7 +2,6 @@
 
 # Harden binary, as this is an internet accessible daemon
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-export DEB_CFLAGS_MAINT_APPEND  = -D_FORTIFY_SOURCE=1
 
 %:
 	dh $@ 

@@ -1,0 +1,20 @@
+Description: Adds support to CPPFLAGS from environmental variables
+ Adds support for CPPFLAGS in the configure script. This allows DPKG
+ to specify additional CPPFLAGS such as hardening
+ This should only be used until it's fixed upstream.
+Author: Weilu Jia <optix2000@teitoku.net>
+Bug-Debian: https://bugs.debian.org/580686
+# Fill me in when bug is filed upstream.
+# Bug:
+
+--- iroffer-dinoex-3.30.orig/Configure
++++ iroffer-dinoex-3.30/Configure
+@@ -1826,7 +1826,7 @@ make_makefile()
+  echo CONFIG_LDLIBS=$GEOLIB $CURLLIB $UPNPLIB $SSLLIB $libs $LIBS
+  echo CONFIG_LDFLAGS=$PROF $DEBUG $SSLLDF $GEOLDF $CURLLDF $UPNPLDF $RUBYLDF $LDFLAGS
+  echo CONFIG_CFLAGS=$PROF $DEBUG $DEBUGFLAGS $WERROR2 $WARNS $WARNS2 $CFLAGS
+- echo CONFIG_CPPFLAGS=$SSLINC $GEOINC $CURLINC $UPNPINC $RUBYINC
++ echo CONFIG_CPPFLAGS=$SSLINC $GEOINC $CURLINC $UPNPINC $RUBYINC $CPPFLAGS
+  echo CONFIG_CHROOT=$NSSLIBS
+  echo CONFIG_SHARED=$RUBYLIB
+  echo CONFIG_STATIC=$RUBYSLIB $CURLSLIB $SLDFLAGS -static
