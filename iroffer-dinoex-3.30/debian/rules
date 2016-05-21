@@ -7,11 +7,6 @@ export DEB_CFLAGS_MAINT_APPEND  = -D_FORTIFY_SOURCE=1
 %:
 	dh $@ 
 
-override_dh_auto_clean:
-	make clean || true
-	rm Makefile || true
-	rm src/iroffer_config.h || true
-
 override_dh_auto_configure:
 	./Configure -curl -tls
 	# For some reason PREFIX=/usr doesn't work
