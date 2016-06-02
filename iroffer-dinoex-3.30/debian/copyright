@@ -11,7 +11,7 @@ License: GPL-2
 
 Files: src/plumb_md5.*
 Copyright: 1993 Colin Plumb
-           1995 Ian Jackson
+           1995 Ian Jackson <ian@chiark.greenend.org.uk>
 License: public-domain
  This code implements the MD5 message-digest algorithm.
  The algorithm is due to Ron Rivest. This code was
@@ -54,7 +54,7 @@ License: LGPL-2.1
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 Files: src/strnatcmp.*
-Copyright: 2000, 2004 Martin Pool
+Copyright: 2000, 2004 Martin Pool <mbp sourcefrog net>
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -73,26 +73,6 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
-
-Files: *
-Copyright: 2000-2016 Dirk Meyer
-License: GPL-2 with OpenSSL exception
- On Debian systems, the complete text of the GPL can be found in the file
- /usr/share/common-licenses/GPL-2
- .
- In addition, as a special exception, Dirk Meyer gives
- permission to link the code of portions of this program with the
- OpenSSL library under certain conditions as described in each
- individual source file, and distribute linked combinations
- including the two.
- .
- You must obey the GNU General Public License in all respects
- for all of the code used other than OpenSSL.  If you modify
- file(s) with this exception, you may extend this exception to your
- version of the file(s), but you are not obligated to do so.  If you
- do not wish to do so, delete this exception statement from your
- version.  If you delete this exception statement from all source
- files in the program, then also delete it here.
 
 Files: src/upnp.* debian/*
 Copyright: 2005-2015 Thomas Bernard
@@ -119,3 +99,23 @@ License: BSD-3-clause
  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: *
+Copyright: 2000-2016 Dirk Meyer
+License: GPL-2 with OpenSSL exception
+ On Debian systems, the complete text of the GPL can be found in the file
+ /usr/share/common-licenses/GPL-2
+ .
+ In addition, as a special exception, Dirk Meyer gives
+ permission to link the code of portions of this program with the
+ OpenSSL library under certain conditions as described in each
+ individual source file, and distribute linked combinations
+ including the two.
+ .
+ You must obey the GNU General Public License in all respects
+ for all of the code used other than OpenSSL.  If you modify
+ file(s) with this exception, you may extend this exception to your
+ version of the file(s), but you are not obligated to do so.  If you
+ do not wish to do so, delete this exception statement from your
+ version.  If you delete this exception statement from all source
+ files in the program, then also delete it here.
