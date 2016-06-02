@@ -1,2 +1,2 @@
-fixbadwhatisentry
-support-cppflags
+fix_bad_whatis_entry.patch
+support_cppflags.patch
