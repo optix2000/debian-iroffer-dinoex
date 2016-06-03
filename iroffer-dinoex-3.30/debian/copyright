@@ -101,7 +101,7 @@ License: BSD-3-clause
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: *
-Copyright: 2000-2016 Dirk Meyer
+Copyright: 2000-2016 Dirk Meyer <dinoex@fan-sub.de>
 License: GPL-2 with OpenSSL exception
  On Debian systems, the complete text of the GPL can be found in the file
  /usr/share/common-licenses/GPL-2
