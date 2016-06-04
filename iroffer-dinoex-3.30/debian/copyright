@@ -38,7 +38,7 @@ License: public-domain
 
 Files: src/blowfish.*
 Copyright: 1997 Paul Kocher
-License: LGPL-2.1
+License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
