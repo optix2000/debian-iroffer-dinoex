@@ -1,6 +1,5 @@
 iroffer-dinoex for Debian
 ------------------------
-Compiled with -D_FORTIFY_SOURCE=1 and -Pie to harden the binary against
-remote attackers.
+Patched to support CPPFLAGS in Makefile
 
  -- Weilu Jia <optix2000@teitoku.net>  Fri, 20 May 2016 04:40:05 +0000
